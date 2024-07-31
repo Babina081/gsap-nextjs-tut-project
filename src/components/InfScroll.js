@@ -9,7 +9,7 @@ const InfScroll = () => {
   useEffect(() => {
     const lenis = new Lenis({
       smooth: true,
-      infinite: false,
+      infinite: true,
       orientation: "horizontal",
       gestureOrientation: "both",
     });
