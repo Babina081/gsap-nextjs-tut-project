@@ -28,3 +28,11 @@ body {
   width: min-content;
   gap: 2vw;
 }
+
+.content_title ::before {
+  font-weight: 400;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10vh;
+  text-align: center;
+}
